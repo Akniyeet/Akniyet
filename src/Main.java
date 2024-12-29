@@ -6,10 +6,10 @@ public class Main {
     public static void main(String[] args) throws Exception {
         School hogwarts = new School();
 
-        File studentFile = new File("C:\\Users\\user\\IdeaProjects\\assignment1\\src\\students.txt");
+        File studentFile = new File("C:\\Users\\Акниет\\IdeaProjects\\ooo\\src\\students.txt");
         Scanner studentScanner = new Scanner(studentFile);
 
-        File teacherFile = new File("C:\\Users\\user\\IdeaProjects\\assignment1\\src\\teachers.txt");
+        File teacherFile = new File("C:\\Users\\Акниет\\IdeaProjects\\ooo\\src\\teachers.txt");
         Scanner teacherScanner = new Scanner(teacherFile);
         while (studentScanner.hasNextLine()) {
             String line = studentScanner.nextLine().trim();
